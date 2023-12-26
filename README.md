@@ -6,4 +6,4 @@ Here, we see the Cybersecurity Projects that I have worked on grouped by files t
 
   SOC LAB WRITE UP
 
-  - Consists of SOC Lab write up
+  -  Consists of SOC Lab write up
