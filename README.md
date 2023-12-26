@@ -4,6 +4,6 @@ Here, we see the Cybersecurity Projects that I have worked on grouped by files t
   
   - Consists of EEL6787 Paper, as well as IDS-SIEM Write up.
 
-  SOC LAB WRITE UP
+  SOC LAB PRACTICE ENVIRONMENT
 
   -  Consists of SOC Lab write up
