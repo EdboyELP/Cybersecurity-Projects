@@ -6,3 +6,6 @@ In the case of the Raspberry Pi Model 4b, the initial setup was the main problem
 
 The Intrusion Detection System, Zeek, was then installed. It was configured to create logs for the device and then it was started by running zeekctl. This allowed to run the IDS itself and, while it had the capability to run anomalous intrusion detection on its own, we paired with ElasticStack so as to provide a more cloud based method of intrusion detection as it would allow for continous monitoring of the device.
 
+After we started to configure ElasticStack, we installed a sensor on the IoT device to be able to send logs to the SIEM so as to analyze these logs whenever they arrive to practice configuration and mild incident response. I then configured the rules for the SIEM to detect any unsuccessful login attempts. This rule, however does not function by itself. This is because it requires machine learning to trigger the anomalistic detection. Due to this, we must activate the machine learning capabilities on the SIEM which is an additional cost, but it is not much more than the base payment. This, combined with the detection rule, plus some other rule-based detection rules will allow us to detect an intrusion that occurs within the device. 
+
+Lastly, we have to test these different rules 
