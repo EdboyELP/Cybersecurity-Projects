@@ -1,1 +1,5 @@
-Here I will show the steps that were taken to 
+Here I will show the steps that were taken to create my IDS/SIEM integration project that allowed for further understanding of not only IDS/IPS systems as well as SIEM solutions, but also IoT devices.
+
+It all starts with the decision of the IoT device, in which case I decided upon the Raspberry Pi Model 4b. This, while being a decently capable system is also able to provide a decent comparison to other IoT devices. Furthermore, an Intrusion Detection System is required, in the case of this project I utilized Zeek, as not only can it collect logs to we will later integrate into our SIEM solution, but it can also work as a standalone IDS and can be configured to run solely on the device. This, coupled with the SIEM solution, in this case I used the ElasticStack, will allow for careful analysis of all the logs that are being sent by our IoT device and can even provide Intrusion Detection abilities via both the SIEM and the log system itself. 
+
+In the case of the Raspberry Pi Model 4b, the initial setup was the main problem in attempting to conduct this project. This is due to the fact that, while very easy to utilize, there is not as much support as a traditional system. Utilizing 
